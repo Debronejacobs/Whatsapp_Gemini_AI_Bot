@@ -20,7 +20,7 @@ graph_api_version = "v19.0"
 # --- Bot Identity ---
 creator_name = "Jacob Debrone"
 bot_name = "Albert"
-model_name = "gemini-1.5-flash" # Ensure this model supports the desired features
+model_name = "gemini-2.0-flash" # Ensure this model supports the desired features
 
 # --- Initialize Logging ---
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
