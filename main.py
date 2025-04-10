@@ -11,7 +11,7 @@ import json
 wa_token = os.environ.get("WA_TOKEN")
 genai_api_key = os.environ.get("GEN_API")
 phone_id = os.environ.get("PHONE_ID")
-verify_token = os.environ.get("VERIFY_TOKEN", "BOT")
+verify_token = "BOT"
 db_name = "whatsapp_conversations.db"
 
 # --- Bot Identity ---
